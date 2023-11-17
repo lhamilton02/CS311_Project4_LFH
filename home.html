@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home - Great Composers</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <style>
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* Two columns */
+            border: 1px solid #1c0a0a; /* Border for the image grid */
+            padding: 10px; /* Add padding for spacing */
+            background-color: #f8f8f8; /* Off white background */
+        }
+
+        .image-grid {
+            border: 1px solid #1c0a0a; /* Border for the image grid */
+            padding: 10px; /* Add padding for spacing */
+        }
+
+         .text-grid {
+           
+            color: #800080; /* Purple text color */
+            padding: 10px; /* Add padding for spacing */
+        }
+
+        
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Top Grid: Title and Composer Links -->
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col">
+                <h1>Great Composers</h1>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col">
+                <a href="home.html">Home</a> |
+                <a href="bizet.html">Bizet</a> |
+                <a href="mozart.html">Mozart</a> |
+                <a href="puccini.html">Puccini</a> |
+                <a href="verdi.html">Verdi</a> |
+                <a href="wagner.html">Wagner</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Middle Grids: Image and Text Grids -->
+    <div class="container mt-4">
+        <div class="grid-container">
+            <!-- Left Grid: Image -->
+            <div class="col-md-6 image-grid">
+                <img src="images/home_page_image.jpg" alt="Home Image" class="img-fluid">
+            </div>
+
+            <!-- Right Grid: Text -->
+            <div class="col-md-6 text-grid">
+                <h3>Introductory Paragraph</h3>
+                <p>This website contains brief information regarding some great composers throughout history.</p>
+                <p>Navigate using the toolbar at the top. Each page contains a short biography, a list of popular works, and a photo.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bottom Grid -->
+    <div class="container mt-4">
+        <div class="grid-container">
+            <div class="col">
+                <p>Created by: Levi Hamilton 2023</p>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+
+</html>
